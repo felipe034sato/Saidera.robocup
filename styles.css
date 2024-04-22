@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #ffffff;
+    background: #000000;
+}
+
+header {
+    background-color: #032933;
+    padding: 50px 20px;
+    text-align: center;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+main {
+    padding: 20px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 20px; 
+}
+
+.feature {
+    flex-basis: calc(33.33% - 20px); 
+}
+
+.feature-content {
+    display: flex;
+    margin-bottom: 20px; /* Adiciona uma margem inferior */
+}
+
+.feature-content img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 20px; /* Adiciona um espaço entre a imagem e o texto */
+}
+
+.text {
+    flex-grow: 1; /* Permite que o texto ocupe o espaço restante */
+}
+
+
+
+.feature:hover {
+    transform: translateY(-5px);
+}
+
+.feature h2 {
+    color: #000000;
+}
+
+.feature p {
+    font-size: 1.1em;
+    font-family: "Arial", sans-serif;
+}
+
+.cta {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.cta h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #44b3d2;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #3a9bb3;
+}
+
+footer {
+    background-color: #032933;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+#tai{
+    border-radius: 5px; 
+    -moz-border-radius: 15px; -webkit-border-radius: 15px; background-color: #e38d1d; 
+    font-size: 15px; font-family: Arial, helvetica, sans-serif; color: #000000; text-align: center; text-decoration: none; display: block; background-color:  #3a9bb3; border: 1px solid transparent; 
+    padding: 20px 20px 20px 20px; border-radius: 5px; 
+    -moz-border-radius: 15px; -webkit-border-radius: 15px;
+}
+#tai a{
+    text-decoration: none; 
+    color: inherit;
+}
+#azul {
+    list-style-type: none; 
+    padding: 0; 
+    text-align: center; 
+}
+
+#azul li {
+    display: inline-block; 
+    margin-right: 10px; 
+}
+
+#azul li:last-child {
+    margin-right: 0; 
+}
+#diferente{
+    background: #3a9bb3;
+}
+#outro{
+    background: #3a9bb3;
+}
+#ult{
+    background: #3a9bb3;
+}
+#luol a {
+    text-decoration: none;
+}

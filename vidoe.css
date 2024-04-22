@@ -1,0 +1,94 @@
+body {
+        font-family: 'Arial', sans-serif;
+        line-height: 1.6;
+        background-color: #333; /* Darker background */
+        color: #fff;
+}
+    
+.header-container {
+        background-color: orange; 
+        color: #fff;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+#logo {
+    font-size: 1.5em;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: orange;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.video {
+    margin-bottom: 20px;
+}
+
+.text {
+    padding: 20px;
+    background-color: #ede2d6;
+    border-radius: 40px;
+    padding-top: 10px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+footer {
+    background-color:  orange; 
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+#tai{
+    border-radius: 5px; 
+    -moz-border-radius: 15px; -webkit-border-radius: 15px; background-color: #e38d1d; 
+    font-size: 15px; font-family: Arial, helvetica, sans-serif; color: #FFFFFF; text-align: center; text-decoration: none; display: block; background-color:  #e38d1d; border: 1px solid transparent; 
+    padding: 15px 20px 15px 10px; border-radius: 5px; 
+    -moz-border-radius: 15px; -webkit-border-radius: 15px
+}
+#azul {
+    list-style-type: none; /* Remove os marcadores de lista padrão */
+    padding: 0; /* Remove o preenchimento padrão da lista */
+    text-align: center; /* Centraliza os itens */
+}
+
+#azul li {
+    display: inline-block; /* Faz com que os itens fiquem lado a lado */
+    margin-right: 10px; /* Adiciona um espaçamento entre os itens */
+}
+
+#azul li:last-child {
+    margin-right: 0; /* Remove a margem direita do último item para evitar espaçamento extra */
+}
